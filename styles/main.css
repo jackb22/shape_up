@@ -1,8 +1,32 @@
 
 body {
+    
     font-family: sans-serif;
+    width: 900px;
+    margin: 0 auto;
+    border: 4px solid steelblue;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px black;
+    
   }
  
+main{
+    padding: 20px;
+}  
+
+header{
+    padding-bottom: 2em;
+    border-bottom: 3px solid steelblue;
+    background-image: -moz-linear-gradient(
+    180deg, white 0%, lightsteelblue 100%);
+    background-image: -webkit-linear-gradient(
+    180deg, white 0%, lightsteelblue 100%);
+    background-image: -o-linear-gradient(
+    180deg, white 0%, lightsteelblue 100%);
+    background-image: linear-gradient(
+    180deg, white 0%, lightsteelblue 100%)
+      
+}
 
 header .header-class .header-class-inner h1 {
    text-indent: 40px;
@@ -36,11 +60,23 @@ a:hover{
 }
 
 li{
-    margin:5px;
+    padding: 5px;   
 }
+
+
+
+
+
 
 footer{
     text-align: center;
     font-size: 14px;
+    color: white;
+
+    margin-top:2px;
+    padding: 10px;
+    background-color: steelblue;
+    height: 200%;
+   
 }
 
