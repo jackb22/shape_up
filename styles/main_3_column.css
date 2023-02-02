@@ -1,19 +1,11 @@
+/*
+* {
+    outline:1px red solid;
+    }
 
-body {
-    
-    font-family: sans-serif;
-    width: 900px;
-    margin: 0 auto;
-    border: 4px solid steelblue;
-    border-radius: 2px;
-    box-shadow: 5px 5px 5px black;
-    
-  }
- 
-main{
-    padding: 20px;
-}  
+*/
 
+/* Headers */
 header{
     padding-bottom: 2em;
     border-bottom: 3px solid steelblue;
@@ -25,7 +17,6 @@ header{
     180deg, white 0%, lightsteelblue 100%);
     background-image: linear-gradient(
     180deg, white 0%, lightsteelblue 100%)
-      
 }
 
 header .header-class .header-class-inner h1 {
@@ -42,6 +33,26 @@ header .header-class .header-class-inner h2{
 
 .header-class-inner img {
  float: left;  
+}
+
+
+body {
+    font-family: sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    border: 4px solid steelblue;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px black;
+}
+ 
+main{
+    float: left;
+    margin: 20px;
+    width: 550px;
+}  
+
+main h2{
+    margin-top: 0;
 }
 
 
@@ -65,28 +76,28 @@ li{
 
 
 /* creating colummns for website */
-main section{
+/* left column */
+#left{
     float:left;
     width: 245px;
-    
-
 }
 
-section{
+/* left column */
+#left h2{
    color: maroon; 
 }
 
 
-main aside{
+#right{
     float: right;
-    width: 600px;
-    padding-left: 15px;
-    font-size: 17px;
+    width: 350px;
 }
 
-section li{
-    color: black;
+
+#right h2{
+    color: maroon;
 }
+
 
 footer{
     clear: both;
@@ -100,4 +111,6 @@ footer{
     height: 200%;
    
 }
+
+
 
