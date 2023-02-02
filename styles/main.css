@@ -1,0 +1,46 @@
+
+body {
+    font-family: sans-serif;
+  }
+ 
+
+header .header-class .header-class-inner h1 {
+   text-indent: 40px;
+   font-style: italic;
+   color:#4682b4;
+   text-shadow: 2px 2px 5px steelblue;
+  }
+
+header .header-class .header-class-inner h2{
+    text-indent: 40px;
+}
+
+
+.header-class-inner img {
+ float: left;  
+}
+
+
+a{
+    color: maroon;   
+}
+
+a:hover{
+    color: steelblue;
+}
+
+
+.resources a{
+    color: steelblue;
+    font-weight: bold;
+}
+
+li{
+    margin:5px;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+}
+
