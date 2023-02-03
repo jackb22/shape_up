@@ -1,19 +1,3 @@
-
-body {
-    
-    font-family: sans-serif;
-    width: 900px;
-    margin: 0 auto;
-    border: 4px solid steelblue;
-    border-radius: 2px;
-    box-shadow: 5px 5px 5px black;
-    
-  }
- 
-main{
-    padding: 20px;
-}  
-
 header{
     padding-bottom: 2em;
     border-bottom: 3px solid steelblue;
@@ -44,9 +28,100 @@ header .header-class .header-class-inner h2{
  float: left;  
 }
 
+#nav_menu {
+	width: 100%;
+	background-color: steelblue;
+}
+
+/*basic menu*/
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+
+/*menu items*/
+#nav_menu ul li {
+    position: relative;
+}
+
+/*sub menu*/
+#nav_menu ul ul {
+	display: none;
+    position: absolute;
+    top: 100%;
+    background-color: steelblue;
+    padding: 0;
+    margin: 0;
+}
+
+#nav_menu ul li a {
+	width: auto;
+    display: block;
+	padding: 0em 1em;
+	text-decoration: none;
+	background-color: steelblue;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+#nav_menu ul li a.current {
+	color: black;
+}
+
+#nav_menu ul ul ul {
+	top: 0;
+	left: 100%;
+}
+
+#nav_menu ul li:hover>ul {
+	display: block;
+    
+}
+
+#nav_menu ul li:hover > a {
+    background-color: lightsteelblue;
+}
+    
+  
+
+#nav_menu ul ul li a:hover {
+	background-color: lightsteelblue;
+}
+
+#nav_menu>ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+body {
+    font-family: sans-serif;
+    width: 900px;
+    margin: 0 auto;
+    border: 4px solid steelblue;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px black;
+}
+
+main{
+    float: left;
+    margin: 20px;
+    width: 550px;
+}  
 
 a{
     color: maroon;   
+    text-decoration: none;
+}
+
+h3{
+    color: maroon;
+    font-weight: bold;
 }
 
 a:hover{
@@ -63,29 +138,18 @@ li{
     padding: 5px;   
 }
 
-
 /* creating colummns for website */
-main section{
+#left {
     float:left;
-    width: 245px;
+    width: 300px;
+    margin: auto;
     
 
 }
 
-section{
+#left h2{
    color: maroon; 
-}
-
-
-main aside{
-    float: right;
-    width: 600px;
-    padding-left: 15px;
-    font-size: 17px;
-}
-
-section li{
-    color: black;
+   padding-left: 22px;
 }
 
 footer{
