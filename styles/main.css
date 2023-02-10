@@ -24,6 +24,19 @@ header .header-class .header-class-inner h2{
 }
 
 
+
+
+header .no-webp .picture{
+    background-image: url("../images/shape_up_logo.png");
+    padding-left: 10em;
+  }
+  
+ header  .webp .picture{
+    background-image: url("../images/shape_up_logo.webp");
+    padding-left: 10em;
+  }
+
+
 .header-class-inner img {
  float: left;  
 }
@@ -114,6 +127,34 @@ main{
     width: 550px;
 }  
 
+.logo{
+    float: left;
+    margin: auto;
+    width: auto;
+}
+
+.logo img  {
+   padding-right: .5em;;
+    
+}
+
+.image{
+    float: right;
+    margin: auto;
+    width: auto;
+    padding-left: .5em;
+    padding-top: .5em;
+}
+
+.image img  {
+    width: 115px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+
+
+
 a{
     color: maroon;   
     text-decoration: none;
@@ -152,8 +193,12 @@ li{
    padding-left: 22px;
 }
 
+.inner_footer{
+    color: black;
+}
+
 footer{
-    clear: both;
+   clear: both;
     text-align: center;
     font-size: 14px;
     color: white;
