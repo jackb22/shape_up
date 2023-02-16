@@ -198,8 +198,16 @@ li{
 }
 
 /* styles for form */
+fieldset{
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
 legend{
     margin-left: 1em;
+    font-weight: bold;
 }
 
 .personal label {
