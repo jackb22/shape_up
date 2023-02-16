@@ -198,6 +198,24 @@ li{
 }
 
 /* styles for form */
+legend{
+    margin-left: 1em;
+}
+
+.personal label {
+    display: inline-block;
+    padding: 0;
+    text-align: right;
+    width: 6em;
+}
+
+input[type=text], input[type=email], select{
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    width: 200px;
+    border: 1px solid black;
+}
 
 input:required, input[required] {
 	border: 2px solid #800000;
@@ -216,27 +234,7 @@ br {
     clear: both;
 }
 
-#fullname{
-	width: 5em;
-}
-
-#email{
-    width: 5em;
-}
-
-#weight{
-    width: 5em;
-}
-
-#gender{
-    width: 5em;
-}
-	
-#date{
-	width: 7em;
-}
-
-input[type=radio]{
+/* input[type=radio]{
 	margin: 10px;
 	padding: 0;
 	width:auto;
@@ -250,8 +248,16 @@ span{
 #buttons input {
 	width: 10em;
 	margin:auto;
-}
+} */
 
+
+.buttons div{
+    margin-left: 3em;
+}
+.buttons input {
+    width: 9.5em;
+    margin:0.5em;
+}
 
 
 
