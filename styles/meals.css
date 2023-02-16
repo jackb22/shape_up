@@ -1,3 +1,4 @@
+
 header{
     padding-bottom: 2em;
     border-bottom: 3px solid steelblue;
@@ -115,7 +116,6 @@ header .no-webp .picture{
 body {
     font-family: sans-serif;
     width: 900px;
-    margin: 0 auto;
     border: 4px solid steelblue;
     border-radius: 2px;
     box-shadow: 5px 5px 5px black;
@@ -213,7 +213,7 @@ input[type=text], input[type=email], select{
     display: inline-block;
     margin: 10px;
     padding: 0;
-    width: 200px;
+    width: 225px;
     border: 1px solid black;
 }
 
@@ -234,22 +234,17 @@ br {
     clear: both;
 }
 
-/* input[type=radio]{
-	margin: 10px;
-	padding: 0;
-	width:auto;
-}
-		
-span{
-	margin:auto;
+.lifestyle input {
+    margin: 5px;
+    margin-left: 3em;
+    border: 1px solid black;
 }
 
-
-#buttons input {
-	width: 10em;
-	margin:auto;
-} */
-
+.preferences input, textarea{
+    margin: 5px;
+    margin-left: 2em;
+    border: 1px solid black;
+}
 
 .buttons div{
     margin-left: 3em;
@@ -258,8 +253,6 @@ span{
     width: 9.5em;
     margin:0.5em;
 }
-
-
 
 
 footer{

@@ -65,7 +65,7 @@
 			<h2> Meal plan order form</h2>
 			<p> Fill out the form as completely as possible adn we will eamil you a weekly meal plan, 
 				customized for you-your lifestyle, your goals, and your personal needs.<br>(Asterisks (*) indicate required entries.</p>
-			<form action="../diet/meal_request.html">
+			<form action="../diet/meal_request.html" id="mealPlan">
 				<fieldset class="personal">
 					<legend>Tell us about yourself</legend>
 
@@ -100,7 +100,7 @@
 						<option value="23"> 23</option>	
 					</select>
 				</fieldset>
-				<fieldset>
+				<fieldset class="lifestyle">
 					<legend>Lifestyle and goals</legend>
 
 					<label for="lifestyle">Which currently matches your present lifestyle?</label><br>
@@ -135,7 +135,7 @@
 
 				</fieldset>
 			   
-				<fieldset>
+				<fieldset class="preferences">
 					<legend>Food preferences and restrictions</legend>
 					
 					<label for="foodPreferences">Do you have any dietary restrictions? (select all that apply)</label><br>
@@ -148,15 +148,15 @@
 					<input type="checkbox" name="foodPreferences" id="low-salt" value="low-salt">
 					<span>Low-salt</span>
 					<input type="checkbox" name="foodPreferences" id="other" value="other">
-					<span>Other, please explain:</span>
-					<input type="text" name="other" id="other"><br>
+					<span>Other, please explain:</span><br>
+					<textarea form="mealPlan" cols="65" rows="5" name="other" id="other"></textarea>
 
 				</fieldset>
 
-				<fieldset>
+				<fieldset class="comments">
 					<legend>Comments:</legend>
 					<label for="comments">Include any additional information that will help us develop a custom menu designed to match your lifestyle and your goals.</label><br>
-					<input type="text" name="comments" id="comments">
+					<textarea form="mealPlan" cols="65" rows="5" name="comments" id="comments"></textarea>
 				</fieldset>
 
 				<fieldset class="buttons">
@@ -184,5 +184,11 @@
 		</section>
 	   
 	</main>
+	<footer>
+		<p>&copy; 2019 Shape Up!</p> 
+		<div class ="inner_footer">
+			<p> Icons made by Freepik from www.flaticon.com are licensed by CC 3.0 BY</p>
+		</div>
+	</footer>
 </body>
 </html>
