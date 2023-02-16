@@ -115,7 +115,7 @@ header .no-webp .picture{
 body {
     font-family: sans-serif;
     width: 900px;
-    margin: 0 auto;
+
     border: 4px solid steelblue;
     border-radius: 2px;
     box-shadow: 5px 5px 5px black;
